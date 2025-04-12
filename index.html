@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canada Pansori Center</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background: url('assets/placeholder-background.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    header .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      background: #222;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    section ul {
+      list-style: disc;
+      padding-left: 2rem;
+    }
+
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <div class="overlay">
+      <h1>Canada Pansori Center</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Canada Pansori Center is dedicated to preserving and promoting the traditional Korean art of Pansori and related performing arts in Canada. Our mission is to create a bridge between cultures through music, storytelling, and performance.
+    </p>
+  </section>
+
+  <section id="programs">
+    <h2>Programs</h2>
+    <ul>
+      <li>Pansori Vocal Training</li>
+      <li>Korean Traditional Percussion (Samulnori)</li>
+      <li>Korean Traditional Dance</li>
+      <li>Workshops and Performances</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:canadapansori@gmail.com">canadapansori@gmail.com</a></p>
+    <p>
+      Instagram: <a href="https://www.instagram.com/canadapansori" target="_blank">@canadapansori</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Canada Pansori Center</p>
+  </footer>
+</body>
+</html>
